@@ -3,7 +3,7 @@
 //read input file, into array, make it array of ints
 // ATTENTION, change filepath to where your expense report is
 var fs = require("fs");
-var text = fs.readFileSync("./partSumQuestEmmaNewcad/expense_report.txt", "utf-8");
+var text = fs.readFileSync("./expense_report.txt", "utf-8");
 var expense_report = text.split("\n").map(Number)
 
 
